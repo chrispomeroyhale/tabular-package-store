@@ -1,0 +1,16 @@
+disabled_rules:
+  - function_body_length
+  - type_body_length
+  - line_length
+  - file_length
+  - cyclomatic_complexity
+  - fallthrough
+  - trailing_whitespace
+  - force_cast
+  - no_fallthrough_only
+  - force_try
+excluded:
+  - Tests
+  - "*.xcodeproj"
+  - "*.git"
+
